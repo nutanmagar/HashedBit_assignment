@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Menu */
+nav {
+    background: #555;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background: #959393;
+    padding: 60px;
+    
+    
+}
+
+.main {
+    width: 75%;
+    padding: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.box {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+}
+
+.box p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+.box img {
+    width: 90%;
+    height: 200px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
