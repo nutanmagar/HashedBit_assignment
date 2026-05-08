@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Center everything inside card */
+.card {
+  background: rgb(241, 241, 253);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.225);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* horizontal center */
+  justify-content: center; /* vertical center */
+  text-align: center;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Center image properly */
+.card img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;   /* ensures centering */
+  border-radius: 8px;
+}
+
+/* Center text */
+.card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+ 
+}

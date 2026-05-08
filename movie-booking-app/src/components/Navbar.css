@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgb(32, 31, 74);
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar h2 {
+  margin: 0;
+}

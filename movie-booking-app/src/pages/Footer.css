@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: rgb(118, 146, 239);   /* violet theme */
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
